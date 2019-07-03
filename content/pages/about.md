@@ -3,6 +3,8 @@ title = "About the Author"
 path = "about"
 template = "about.html"
 +++
+## About the Author:
+
 I am creating this blog to create a record of my activities that I can look back on in the future. I love nostalgia. It could also be a place for people who have similar interests could find (hopefully) cool ideas and projects. Also, as I am an overly analytical person, I plan to use this medium to explore my emotions. If you are interested in only a specific topic you can filter my posts by category or tags.
 
 I am a 33 year old male who is fortunate enough to live in the beautifully temperate pacific northwest (USA). I am a technology enthusiast who enjoys all things [Linux](https://en.wikipedia.org/wiki/Linux) and [Open Source](https://en.wikipedia.org/wiki/Open_source). When it comes to opinionated ramblings about specific distributions of Linux, you'll find I am almost exclusively a [Fedora](https://getfedora.org/) user.
