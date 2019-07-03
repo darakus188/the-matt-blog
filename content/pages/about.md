@@ -3,7 +3,7 @@ title = "About the Author"
 path = "about"
 template = "about.html"
 +++
-## About the Author:
+## About the Author
 
 I am creating this blog to create a record of my activities that I can look back on in the future. I love nostalgia. It could also be a place for people who have similar interests could find (hopefully) cool ideas and projects. Also, as I am an overly analytical person, I plan to use this medium to explore my emotions. If you are interested in only a specific topic you can filter my posts by category or tags.
 
