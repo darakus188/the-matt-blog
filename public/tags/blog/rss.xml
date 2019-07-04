@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Matthew Bunt</title>
+        <link>https%3A//www.matthewbunt.org</link>
+        <description>A blog about technology, life and being human</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https%3A//www.matthewbunt.org/tags/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Using Zola for a Personal Blog</title>
+                <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+                <link>https%3A//www.matthewbunt.org/zola/</link>
+                <guid>https%3A//www.matthewbunt.org/zola/</guid>
+                <description>&lt;p&gt;When I set out to create a personal blog I had only a vague idea of what the
+possibilities were. I had heard about this fancy wizbang content management
+system called &lt;a href=&quot;https:&#x2F;&#x2F;wordpress.org&#x2F;&quot;&gt;Wordpress&lt;&#x2F;a&gt;. After taking a look at
+Wordpress I was fairly impressed. There is quite an ecosystem of themes and
+plugins which allows for nearly limitless design flexibility. Wordpress enjoys
+many web hosts who cater specifically to its user base. For a modest fee, these
+companies will do most of the &lt;em&gt;not so hard&lt;&#x2F;em&gt; work of getting an instance of
+Wordpress running on a web server. It was all rather slick and easy. So of
+course I decided that was certainly not the direction for me to take.&lt;&#x2F;p&gt;
+&lt;p&gt;Instead I wanted something a bit more manual, but still with some of the
+convenient features. Something simple, spartan even, but still powerful. I
+didn&#x27;t care about monetization. I didn&#x27;t want any distracting animations. I
+definitely have no interest in tracking&lt;sup&gt;1&lt;&#x2F;sup&gt; anyone who visits my blog.
+Open source is a must. And it would be really sweet if I could use
+&lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt; would it not?&lt;&#x2F;p&gt;
+&lt;p&gt;After thinking about the features and anti-features that I wanted and doing
+some Googling I decided to try out &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;.
+Zola is a static site generator written in Rust that takes articles written in
+markdown and spits out a website. There is a bit more to it than that, but that
+is the main idea. Zola has many features but also is still in active
+development which is right up my alley. I almost chose Hugo over Zola because
+Hugo supports asciidoc but the allure of Rust was too much. I may even try to
+implement support for asciidoc into Zola because it is the format that the
+&lt;a href=&quot;https:&#x2F;&#x2F;docs.fedoraproject.org&quot;&gt;Fedora Docs&lt;&#x2F;a&gt; team uses and learning it might
+make contributing there easier in the future. And what better way to learn
+something than to implement it in code.&lt;&#x2F;p&gt;
+&lt;p&gt;Zola, and static site generators in general, are pretty cool little programs.
+They are like a middle ground between coding the site entirely by hand and
+using a full blown CMS like Wordpress. Zola uses a powerful template engine
+that allows you to use programming features like iteration, conditionals and
+variables to construct html pages. It then reads the content directory, which is just a bunch of markdown files, each containing an article. With the template and the content in hand, Zola smashes them together into a website. There is even the option to host the site right from the Zola binary. The developers of Zola claim that due to the static nature of the generated websites, Zola sites are exceptionally fast and scalable since they don&#x27;t require server side processing or database queries. My site seems lightning fast so at this point I have no reason to be skeptical about that and see no technical reasons why it wouldn&#x27;t scale to many, many users.&lt;&#x2F;p&gt;
+&lt;p&gt;I decided to start out with a very spartan theme. It is just a wall of article
+links and the option to filter by categories or tags. I wanted to create a
+distraction free experience and I think I&#x27;ve already accomplished that. One
+thing I personally don&#x27;t like about my theme is that it is a light theme.
+However I know there are many people who do like light themes so I&#x27;ve decided
+to leave it light and dark theme users can use
+&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;darkreader&#x2F;&quot;&gt;DarkReader&lt;&#x2F;a&gt; or
+something like that. I might change that in the future.&lt;&#x2F;p&gt;
+&lt;p&gt;While I know the basics of markdown, I have not worked with it extensively in
+the past. I tried two different markdown editors while setting up this blog.
+First was called Marker. It is a GTK3+ application that would normally fit in
+very well on a &lt;a href=&quot;https:&#x2F;&#x2F;getfedora.org&#x2F;&quot;&gt;Fedora Workstation&lt;&#x2F;a&gt;. However I use the
+Adwaita Dark theme for GNOME and Marker had some visual problems using that. I
+then tried UberWriter, also a GTK3+ application. UberWriter worked quite
+beautifully. It was elegant and hid its user interface while I was writing. It
+was a very good experience. But being the nerd that I am I soon began longing
+for the familiarity of Vim. After some fiddling around, I was able to setup Vim
+to be an excellent companion to writing prose. Vim supports markdown syntax
+highlighting out of the box, but to really make it a better markdown editor you
+need to change some of the defaults for markdown files. This is what I added to
+my &lt;code&gt;~&#x2F;.vimrc&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;span style=&quot;color:#c0c5ce;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;autocmd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;FileType markdown &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setlocal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; wrap 
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;autocmd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;FileType markdown &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setlocal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; linebreak
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;autocmd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;FileType markdown &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setlocal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; spell
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;autocmd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;FileType markdown &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setlocal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; tw=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;autocmd &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;FileType markdown &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;setlocal&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt; wrapmargin=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This gave me access to spell checking and automatic word wrapping. I never knew
+that Vim had a built in spell checker until today and I have been using it for
+years.&lt;&#x2F;p&gt;
+&lt;p&gt;From this simple starting point I will hopefully create a habit of writing and
+sharing my experiences with the internet. To humble beginning. Cheers.
+&lt;br&gt;
+&lt;br&gt;
+&lt;sup&gt;1&lt;&#x2F;sup&gt; There is a javascript library that is used currently in my blog
+that is used to create a fancy slide out menu on mobile devices. The library
+comes from &lt;em&gt;cdnjs.cloudflare.com&lt;&#x2F;em&gt; and it gets flagged as a potential tracker by the excellent Firefox add-on &lt;a href=&quot;https:&#x2F;&#x2F;www.eff.org&#x2F;privacybadger&#x2F;faq&quot;&gt;Privacy Badger&lt;&#x2F;a&gt;. This was part of the template I am using and will work to fix this in the near future.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

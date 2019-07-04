@@ -1,0 +1,9 @@
++++
+title = "First post"
+date = 2018-07-01
+
+[taxonomies]
+categories = ["Odd"]
+tags = ["placeholder posts", "tag1"]
++++
+This is the first post
