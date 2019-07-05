@@ -22,6 +22,11 @@
         </url>
     
         <url>
+            <loc>https%3A//www.matthewbunt.org/categories/life/</loc>
+            
+        </url>
+    
+        <url>
             <loc>https%3A//www.matthewbunt.org/categories/technology/</loc>
             
         </url>
@@ -39,12 +44,29 @@
         </url>
     
         <url>
+            <loc>https%3A//www.matthewbunt.org/socialanxiety/</loc>
+            
+                <lastmod>2019-07-05</lastmod>
+            
+        </url>
+    
+        <url>
             <loc>https%3A//www.matthewbunt.org/tags/</loc>
             
         </url>
     
         <url>
             <loc>https%3A//www.matthewbunt.org/tags/blog/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https%3A//www.matthewbunt.org/tags/emotions/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https%3A//www.matthewbunt.org/tags/isolation/</loc>
             
         </url>
     
@@ -60,6 +82,11 @@
     
         <url>
             <loc>https%3A//www.matthewbunt.org/tags/self/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https%3A//www.matthewbunt.org/tags/social-anxiety/</loc>
             
         </url>
     
