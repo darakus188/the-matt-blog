@@ -8,6 +8,7 @@ tags = ["emotions", "social anxiety", "isolation"]
 +++
 
 I'm going to step out of my comfort zone and write about social anxiety. The thought of sharing something that I consider so personal with a complete stranger causes a fear response in me that I can feel in the pit of my stomach. But my therapist suggested that starting a blog could help me explore things like this, so I am going to try.
+<!-- more -->
 
 The end result of extended periods of untreated social anxiety is almost complete isolation. After high school I lost contact with many of my friends. That is normal. Since high school I have not made a single new friend. That is not normal. It's not like I have never spoken to anyone. I've learned a few new people's names. But they are all acquaintances. I have never gotten past that overly polite stage when you meet a new person. I'm not sure how to do it. The nervous feelings of worry and judgement are so overwhelming that most of the time it's just easier not to speak at all.
 

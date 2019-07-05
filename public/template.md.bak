@@ -6,4 +6,9 @@ date = 2018-07-01
 categories = ["Odd"]
 tags = ["placeholder posts", "tag1"]
 +++
-This is the first post
+
+This is the article preview
+
+<!-- more -->
+
+This is the rest of the article

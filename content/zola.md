@@ -16,6 +16,7 @@ many web hosts who cater specifically to its user base. For a modest fee, these
 companies will do most of the _not so hard_ work of getting an instance of
 Wordpress running on a web server. It was all rather slick and easy. So of
 course I decided that was certainly not the direction for me to take.
+<!-- more -->
 
 Instead I wanted something a bit more manual, but still with some of the
 convenient features. Something simple, spartan even, but still powerful. I

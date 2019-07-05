@@ -8,6 +8,7 @@ tags = ["personal", "self"]
 +++
 
 I am a 33 year old male who is fortunate enough to live in the beautifully temperate pacific northwest (USA). I am a technology enthusiast who enjoys all things [Linux](https://en.wikipedia.org/wiki/Linux) and [Open Source](https://en.wikipedia.org/wiki/Open_source). When it comes to opinionated ramblings about specific distributions of Linux, you'll find I am almost exclusively a [Fedora](https://getfedora.org/) user.
+<!-- more -->
 
 I make a hobby out of studying computer programming. I am mostly using Rust these days, but in the past I've also used python. In school I learned about C#, Java and Perl, but I have not used those very much since then. Speaking of school, I have an associates degree in Data Networks and Telecommunications from [Clark College](http://www.clark.edu/). I almost completed a bachelors degree at [Western Governors University](https://www.wgu.edu/), but personal and health problems have caused me to put that on hold for now.
 
