@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://www.matthewbunt.org"
-title = "Matthew Bunt"
+title = "Matthew Bunt: A Blog about Technology, Life and Being Human"
 description = "A blog about technology, life and being human"
 
 # Whether to automatically compile all Sass files in the sass directory
