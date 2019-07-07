@@ -6,11 +6,12 @@ date = 2019-07-07
 categories = ["Technology"]
 tags = ["fedora", "linux", "install", "setup"]
 +++
-![Image of a terminal with the output of neofetch command. It shows the software and hardware described in this article.](https://matthewbunt.org/laptopneofetch.png "Terminal running neofetch")
 
 This morning I decided to dust off an old laptop that has been sitting in my closet for a year or two and see what I could do to revive the old clunker. This has always been kind of a toy laptop to me and it was about as cheap as you can get in the United States. I got it on sale on Black Friday at OfficeMax a few years ago for $159. It's a Toshiba Satellite C55-B5299 that sports a 15 inch 1366x768 display. The internals are about what you would expect at such a low price: A dual-core Intel Celeron N2830 (2.16GHz/2.41GHz turboboost) processor, 2GB of RAM, and a 500GB 5400rpm laptop hard. My goal was to get this old slow computer to run decently well for watching videos and web browsing for my nieces. And in case you didn't notice the title, to accomplish this task I'm using my favorite flavor of Linux: Fedora.
 
 <!-- more -->
+
+![Image of a terminal with the output of neofetch command. It shows the software and hardware described in this article.](https://matthewbunt.org/laptopneofetch.png "Terminal running neofetch")
 
 Before starting this I knew that the standard Fedora Workstation with the GNOME desktop would be too heavyweight for this aged hardware. However, I wanted to see just how bad it would run and so I installed Workstation anyway just to test. I'll tell now, I was not wrong. After using the Fedora Media Writer tool from my desktop to create a bootable flash drive with the F30 Workstation ISO on it, I decided that I would try to switch the laptop back into UEFI mode as when I bought it that wasn't working so well on Linux yet. After booting off of the USB drive I was happy to find out that Fedora happily installed itself and I didn't have to switch back into legacy bios mode. Success!
 
