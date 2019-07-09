@@ -7,7 +7,7 @@ categories = ["Life"]
 tags = ["self-improvement", "medical", "emotions"]
 +++
 
-Whenever I go to the neurologists office I am often filled with anxious anticipation and a sense of profound hopelessness. Like so many times before, the doctor will ask me the same old questions. I will give my answers, the same as last time, and I will be told to come back in six months so the doctor can monitor the progress of my condition. It has been like that for over three years but now I am going to try something new. It is an idea that my therapist and I had discussed some time ago but that I had not taken to heart until now. That idea is radical acceptance. 
+When I go to the neurologists office I am often filled with anxious anticipation and a sense of profound hopelessness. Like so many times before, the doctor will ask me the same old questions. I will give my answers, the same as last time, and I will be told to come back in six months so the doctor can monitor the progress of my condition. It has been like that for over three years but now I am going to try something new. It is an idea that my therapist and I had discussed some time ago but that I had not taken to heart until now. That idea is radical acceptance. 
 
 <!-- more -->
 
