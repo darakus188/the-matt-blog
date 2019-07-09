@@ -4,7 +4,7 @@ date = 2019-07-05
 
 [taxonomies]
 categories = ["Life"]
-tags = ["emotions", "social anxiety", "isolation"]
+tags = ["medical", "emotions", "social anxiety", "isolation"]
 +++
 
 I'm going to step out of my comfort zone and write about social anxiety. The thought of sharing something that I consider so personal with a complete stranger causes a fear response in me that I can feel in the pit of my stomach. But my therapist suggested that starting a blog could help me explore things like this, so I am going to try.
