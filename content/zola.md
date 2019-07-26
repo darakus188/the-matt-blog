@@ -1,6 +1,8 @@
 +++
 title = "Using Zola for a Personal Blog"
 date = 2019-07-04
+[extra]
+page_id = 2
 
 [taxonomies]
 categories = ["Technology"]

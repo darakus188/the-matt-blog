@@ -1,7 +1,8 @@
 +++
 title = "Radical Acceptance"
 date = 2019-07-09
-
+[extra]
+page_id = 5
 [taxonomies]
 categories = ["Life"]
 tags = ["self-improvement", "medical", "emotions"]
