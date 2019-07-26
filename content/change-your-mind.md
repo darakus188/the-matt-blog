@@ -1,8 +1,6 @@
 +++
 title = "Feel Free to Change Your Mind"
 date = 2019-07-16
-[extra]
-page_id = 6
 
 [taxonomies]
 categories = ["Life"]

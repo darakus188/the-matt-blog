@@ -1,8 +1,6 @@
 +++
 title = "Fedora 30 on a Low End Laptop"
 date = 2019-07-07
-[extra]
-page_id = 4
 
 [taxonomies]
 categories = ["Technology"]
