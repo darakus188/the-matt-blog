@@ -42,11 +42,10 @@ Suddenly I was laying in a hospital bed being wheeled down a well-lit
 hallway. We turned into a hospital room and the kind voice of a nurse
 announced that this was my room and that I should try to relax for a
 while. My thoughts started to come together and I began wondering what
-was happening. Before I couAs far as I can tell, it was about two hours from
-the time I lost consciousness until my mind started working again.but I'm not sure anything resembling an
-English sentence escaped my lips. "You had a seizure", she said in a
-quivering voice, chocking back the tears that were nevertheless
-visible behind her eyes.
+was happening. My Mother entered the room and I wanted to speak but 
+I'm not sure anything resembling an English sentence escaped my lips.
+"You had a seizure", she said in a quivering voice, chocking back the
+tears that were nevertheless visible behind her eyes.
 
 The next few hours were spent answering my questions and monitoring
 my vitals. They thought my seizure was caused by the Bupropion that
